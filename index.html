@@ -9,58 +9,57 @@
     <title>Crystals Collector Game</title>
   </head>
   <body>
-
-    
-  <!-- TEMPLATE BELOW -->
-  <div class="header">
-  		<h1>Crystal Collector</h1>
-  	</div>
-  	<div class="instructions">
-  		<h3>Here's how you play the game</h3>
-  		</br>
-  		<ol>
-  			<li>You will be given a random number at the start of the game.<span>"Number To Get"</span></li>
-  			<li>There are four crystals below.</li>
-  			<ul>
-  				<li id="blue">Blue</li>
-  				<li id="green">Green</li>
-  				<li id="red">Red</li>
-  				<li id="yellow">Yellow</li>
-  			</ul>
-  			<li>By clicking on a crystal, you will add a specific amount of points to your total score.</li>
-  			<li>You win the game by matching your total score to the random number.</li>
-  			<li>You lose the game if your total score goes above the random number.</li>
-  			<li>The value of each crystal is hidden from you until you click on it.</li>
-  			<li>Each time when the game starts, the game will change the values of each crystal.</li>
-  		</ol>
-  	</div>
-  	<div class="numberToMatch">
-  		<h2>Number To Get:
-  			<span id= "randomNumber"></span>
-  		</h2>
-  	</div>
-  	<div class="winsAndLosses">
-  		<h2>Wins:
-  			<span id= "numberWins"></span>
-  			</br>
-  			Losses:
-  			<span id= "numberLosses"></span>
-  		</h2>
-  	</div>
-  	<div class="gems">
-  		<img src="assets/images/blue.png" class=gemImage id="one" alt="Blue Gem">
-  		<img src="assets/images/green.png" class=gemImage id="two" alt="Green Gem">
-  		<img src="assets/images/red.png" class=gemImage id= "three" alt="Red Gem">
-  		<img src="assets/images/yellow.png" class=gemImage id= "four" alt="Yellow Gem">
-  	</div>
-  	<div class="userTotal">
-  		<h2>Your total score is:
-  			<span id="finalTotal"></span>
-  		</h2>
-  	</div>
-  <!-- TEMPLATE ABOVE -->
-
-
+    <div class="container">
+      <div class="row row1">
+  		  <h1>Crystal Collector</h1>
+  	   </div>
+       <div class="row row2">
+         <div class="col-md-6">
+  		   <h2>Here's how you play the game</h2>
+  		   </br>
+         <!-- not 100% sold on using lists below -->
+  		   <ol>
+  			  <li>You will be given a random number at the start of the game.</li>
+  			  <li>There are four crystals below.</li>
+  			  <ul>
+  				 <li id="blue">Blue</li>
+  			   <li id="green">Green</li>
+  			   <li id="red">Red</li>
+  			   <li id="yellow">Yellow</li>
+  			  </ul>
+  			   <li>By clicking on a crystal, you will add a specific amount of points to your total score.</li>
+  			   <li>You win the game by matching your total score to the random number.</li>
+  			   <li>You lose the game if your total score goes above the random number.</li>
+  			   <li>The value of each crystal is hidden from you until you click on it.</li>
+  			   <li>Each time when the game starts, the game will change the values of each crystal.</li>
+  		    </ol>
+          </div>
+  	    </div>
+        <div class="row row3">
+          <div class="col-md-3">
+  		    <h2>Number To Get: </h2>
+          </div>
+  			  <div class="col-md-3">
+          <h2>Wins: </h2>
+          <hr></hr>
+          <h2>Losses: </h2>
+          </div>
+  	     </div>
+  	     <div class="row row4">
+           <div class="col-md-8">
+  		      <img src="assets\images\Chaos Emerald1 Capture.PNG" class=gemImage id="one" alt="Blue Gem">
+  		      <img src="assets\images\Chaos Emerald2 Capture.PNG" class=gemImage id="two" alt="Green Gem">
+  		      <img src="assets\images\Chaos Emerald3 Capture.PNG" class=gemImage id= "three" alt="Red Gem">
+  		      <img src="assets\images\Chaos Emerald4 Capture.PNG" class=gemImage id= "four" alt="Yellow Gem">
+  	       </div>
+         </div>
+  	     <div class="row row5">
+           <div class="col-md-4">
+             <h2>Your total score is: </h2>
+  			     <section id="finalTotal"></section>
+  	       </div>
+        </div>
+      </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets\javascript\game.js"></script>
   </body>
