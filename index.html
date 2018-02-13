@@ -22,10 +22,11 @@
   			  <li>You will be given a random number at the start of the game.</li>
   			  <li>There are four crystals below.</li>
   			  <ul>
-  				 <li id="blue">Blue</li>
-  			   <li id="green">Green</li>
+            <!-- change colors here -->
+  				 <li id="yellow">Yellow</li>
   			   <li id="red">Red</li>
-  			   <li id="yellow">Yellow</li>
+  			   <li id="blue">Blue</li>
+  			   <li id="purple">Purple</li>
   			  </ul>
   			   <li>By clicking on a crystal, you will add a specific amount of points to your total score.</li>
   			   <li>You win the game by matching your total score to the random number.</li>
@@ -37,12 +38,18 @@
   	    </div>
         <div class="row row3">
           <div class="col-md-3">
-  		    <h2>Number To Get: </h2>
+  		    <h2>Number To Get:
+            <span id="randomNumber"</span>
+            </h2>
           </div>
   			  <div class="col-md-3">
-          <h2>Wins: </h2>
+          <h2>Wins:
+          <span id="numberWins"</span>
+          </h2>
           <hr></hr>
-          <h2>Losses: </h2>
+          <h2>Losses:
+          <span id="numberLosses"</span>
+          </h2>
           </div>
   	     </div>
   	     <div class="row row4">
@@ -55,8 +62,9 @@
          </div>
   	     <div class="row row5">
            <div class="col-md-4">
-             <h2>Your total score is: </h2>
-  			     <section id="finalTotal"></section>
+             <h2>Your total score is:
+  			     <span id="finalTotal"></span>
+             </h2>
   	       </div>
         </div>
       </div>
