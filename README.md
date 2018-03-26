@@ -1,7 +1,7 @@
-# week-4-game
+# crystals-game
 
 # Project Description
-Week 4 Game would have benefited from a more descriptive title;<br>
+Crystals Game would have benefited from a more descriptive title;<br>
 it is a numbers-based game that requires a user to click on crystals until a random number is matched,<br>
 and was creating during my fourth week of "intensive" attempts at coding.<br>
 
